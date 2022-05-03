@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     text-align: center;
+    font-family: '標楷體';
+    overflow: hidden;
 }
 
 .top, .footer,
@@ -36,6 +38,8 @@
 
 .update {
     flex-basis: 25px;
+    font-size: 16px;
+    color: #000000;
 }
 
 .right {
@@ -46,6 +50,8 @@
 
 .marquee {
     flex-basis: 29px;
+    font-size: 24px;
+    color: #0000ff;
 }
 
 .content {
@@ -55,4 +61,6 @@
 .footer {
     flex-basis: 1000px;
     height: 20px;
+    font-size: 16px;
+    color: #000000;
 }
